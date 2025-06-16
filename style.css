@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff1f5;
+  font-family: 'Lora', serif;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.container {
+  background-color: #8F9B86;
+  padding: 40px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 900px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  border: 10px solid transparent;
+  animation: fadeIn 1.5s ease-in;
+}
+
+.container h1, h2, h3 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5em;
+  color: #d16ba5; 
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.container img {
+  display: block;
+  margin: 20px auto;
+  width: 700px; 
+  max-width: 100%;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+}
+
+.container img:hover {
+  transform: scale(1.03);
+}
